@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.just-null.cn/posts/zookeeper_watcher.html</loc>
+    <loc>https://www.just-null.cn/posts/zookeeper_zapandlea.html</loc>
+    
+    <lastmod>2021-01-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/posts/zookeeper_colony.html</loc>
     
     <lastmod>2021-01-03</lastmod>
     
@@ -205,13 +212,6 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/springMvc_.html</loc>
-    
-    <lastmod>2020-08-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.just-null.cn/posts/SpringMVC_interceptor.html</loc>
     
     <lastmod>2020-08-30</lastmod>
@@ -220,6 +220,13 @@
   
   <url>
     <loc>https://www.just-null.cn/posts/SpringMvc_exception.html</loc>
+    
+    <lastmod>2020-08-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/posts/springMvc_.html</loc>
     
     <lastmod>2020-08-30</lastmod>
     
@@ -261,14 +268,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/Spring_Aop_xml.html</loc>
-    
-    <lastmod>2020-08-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/posts/Spring_Aop_anno.html</loc>
+    <loc>https://www.just-null.cn/posts/Spring_aoptx.html</loc>
     
     <lastmod>2020-08-26</lastmod>
     
@@ -282,16 +282,16 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/Spring_aoptx.html</loc>
+    <loc>https://www.just-null.cn/posts/Spring_Aop_anno.html</loc>
     
     <lastmod>2020-08-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/Spring_CRUD_XML.html</loc>
+    <loc>https://www.just-null.cn/posts/Spring_Aop_xml.html</loc>
     
-    <lastmod>2020-08-25</lastmod>
+    <lastmod>2020-08-26</lastmod>
     
   </url>
   
@@ -310,7 +310,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/SpringIoc_XML.html</loc>
+    <loc>https://www.just-null.cn/posts/Spring_CRUD_XML.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/posts/SpringIoc_yilai.html</loc>
     
     <lastmod>2020-08-24</lastmod>
     
@@ -324,7 +331,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/SpringIoc_yilai.html</loc>
+    <loc>https://www.just-null.cn/posts/SpringIoc_XML.html</loc>
     
     <lastmod>2020-08-24</lastmod>
     
@@ -618,14 +625,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/4226563224.html</loc>
+    <loc>https://www.just-null.cn/posts/2322029606.html</loc>
     
     <lastmod>2020-04-11</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/posts/2322029606.html</loc>
+    <loc>https://www.just-null.cn/posts/4226563224.html</loc>
     
     <lastmod>2020-04-11</lastmod>
     
@@ -683,13 +690,6 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/Redis/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.just-null.cn/tags/Mysql/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -697,14 +697,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/mybatis/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/tags/%E5%8A%A8%E6%80%81SQL/</loc>
+    <loc>https://www.just-null.cn/tags/Redis/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -719,6 +712,20 @@
   
   <url>
     <loc>https://www.just-null.cn/tags/iTerm/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/tags/mybatis/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/tags/%E5%8A%A8%E6%80%81SQL/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -753,14 +760,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/RESTFul/</loc>
+    <loc>https://www.just-null.cn/tags/Filter/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/Filter/</loc>
+    <loc>https://www.just-null.cn/tags/RESTFul/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -788,13 +795,6 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/%E6%8B%A6%E6%88%AA%E5%99%A8/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.just-null.cn/tags/Thymeleaf/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -803,6 +803,13 @@
   
   <url>
     <loc>https://www.just-null.cn/tags/Transacation/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/tags/%E6%8B%A6%E6%88%AA%E5%99%A8/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -900,14 +907,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</loc>
+    <loc>https://www.just-null.cn/tags/%E6%A6%82%E8%BF%B0/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/%E6%A6%82%E8%BF%B0/</loc>
+    <loc>https://www.just-null.cn/tags/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -935,6 +942,13 @@
   </url>
   
   <url>
+    <loc>https://www.just-null.cn/tags/Tomcat/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.just-null.cn/tags/gcc-g/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -943,13 +957,6 @@
   
   <url>
     <loc>https://www.just-null.cn/tags/Windows/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/tags/Tomcat/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -984,7 +991,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/%E9%9B%86%E7%BE%A4/</loc>
+    <loc>https://www.just-null.cn/tags/zab%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/tags/leader%E9%80%89%E4%B8%BE/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -999,6 +1013,13 @@
   
   <url>
     <loc>https://www.just-null.cn/tags/BeanUtils/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/tags/%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1210,13 +1231,6 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/MacOS/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Jdk/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -1231,7 +1245,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Redis/</loc>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Mysql/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1245,7 +1259,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Mysql/</loc>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Redis/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/MacOS/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1253,13 +1274,6 @@
   
   <url>
     <loc>https://www.just-null.cn/categories/mybatis/%E5%8A%A8%E6%80%81SQL/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/MacOS/iTerm/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1287,6 +1301,13 @@
   </url>
   
   <url>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Mysql/Linux/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.just-null.cn/categories/SpringMVC/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -1295,20 +1316,6 @@
   
   <url>
     <loc>https://www.just-null.cn/categories/Python/%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/categories/SpringBoot/RESTFul/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Mysql/Linux/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1329,6 +1336,13 @@
   </url>
   
   <url>
+    <loc>https://www.just-null.cn/categories/SpringBoot/RESTFul/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.just-null.cn/categories/SpringBoot/Servlet/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
@@ -1336,14 +1350,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/gcc-g/</loc>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Tomcat/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/Tomcat/</loc>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/gcc-g/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1378,14 +1392,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/SpringBoot/%E6%8B%A6%E6%88%AA%E5%99%A8/</loc>
-    <lastmod>2021-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/categories/Java/</loc>
+    <loc>https://www.just-null.cn/categories/%E6%95%99%E7%A8%8B/MacOS/iTerm/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1399,7 +1406,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/mybatis/%E5%8F%82%E6%95%B0/</loc>
+    <loc>https://www.just-null.cn/categories/Java/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1407,6 +1414,20 @@
   
   <url>
     <loc>https://www.just-null.cn/categories/SpringBoot/Transacation/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/categories/SpringBoot/%E6%8B%A6%E6%88%AA%E5%99%A8/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/categories/mybatis/%E5%8F%82%E6%95%B0/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1476,14 +1497,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/C/%E9%80%92%E5%BD%92/</loc>
+    <loc>https://www.just-null.cn/categories/SpringBoot/Redis/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/SpringBoot/Redis/</loc>
+    <loc>https://www.just-null.cn/categories/C/%E9%80%92%E5%BD%92/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1546,14 +1567,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Spring/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</loc>
+    <loc>https://www.just-null.cn/categories/Spring/%E6%A6%82%E8%BF%B0/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Spring/%E6%A6%82%E8%BF%B0/</loc>
+    <loc>https://www.just-null.cn/categories/Spring/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1609,7 +1630,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Zookeeper/%E9%9B%86%E7%BE%A4/</loc>
+    <loc>https://www.just-null.cn/categories/Zookeeper/zab%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1617,6 +1638,13 @@
   
   <url>
     <loc>https://www.just-null.cn/categories/Java/BeanUtils/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/categories/Zookeeper/%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1687,6 +1715,13 @@
   
   <url>
     <loc>https://www.just-null.cn/categories/Spring/AOP/%E6%B3%A8%E8%A7%A3/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.just-null.cn/categories/Zookeeper/zab%E5%8D%8F%E8%AE%AE/leader%E9%80%89%E4%B8%BE/</loc>
     <lastmod>2021-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
