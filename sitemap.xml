@@ -1005,14 +1005,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/acl/</loc>
+    <loc>https://www.just-null.cn/tags/Shell/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/Shell/</loc>
+    <loc>https://www.just-null.cn/tags/acl/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1665,14 +1665,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Zookeeper/acl/</loc>
+    <loc>https://www.just-null.cn/categories/Zookeeper/Shell/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Zookeeper/Shell/</loc>
+    <loc>https://www.just-null.cn/categories/Zookeeper/acl/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
