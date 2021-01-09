@@ -7817,13 +7817,10 @@ div.timenode .meta:after {
   color: #e6eaed;
 }
 [data-theme='dark'] {
-  --global-bg: #0d0d0d;
+  --global-bg: #191919;
   --font-color: rgba(255,255,255,0.9);
   --hr-border: rgba(255,255,255,0.4);
   --hr-before-color: rgba(255,255,255,0.7);
-  --search-bg: #121212;
-  --search-input-color: rgba(255,255,255,0.7);
-  --search-result-title: rgba(255,255,255,0.9);
   --preloader-bg: #0d0d0d;
   --preloader-color: rgba(255,255,255,0.7);
   --tab-border-color: #2c2c2c;
@@ -7831,7 +7828,7 @@ div.timenode .meta:after {
   --tab-botton-color: rgba(255,255,255,0.7);
   --tab-button-hover-bg: #383838;
   --tab-button-active-bg: #121212;
-  --card-bg: #121212;
+  --card-bg: #1e1e1e;
   --sidebar-bg: #121212;
   --btn-hover-color: #787878;
   --btn-color: rgba(255,255,255,0.7);
