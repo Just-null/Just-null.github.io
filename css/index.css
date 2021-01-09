@@ -2293,7 +2293,7 @@ blockquote footer cite:before {
 }
 @media screen and (max-width: 768px) {
   #recent-posts > .recent-post-item {
-    border-radius: 12px 12px 8px 8px;
+    border-radius: 25px;
   }
 }
 #recent-posts > .recent-post-item:hover {
@@ -2642,7 +2642,7 @@ blockquote footer cite:before {
   overflow: hidden;
   margin-top: 1rem;
   padding: 1rem 1.2rem;
-  border-radius: 8px;
+  border-radius: 15px;
   background: var(--card-bg);
   -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
