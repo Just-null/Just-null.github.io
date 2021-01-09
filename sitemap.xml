@@ -611,14 +611,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/books/index.html</loc>
+    <loc>https://www.just-null.cn/about/index.html</loc>
     
     <lastmod>2020-04-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/about/index.html</loc>
+    <loc>https://www.just-null.cn/books/index.html</loc>
     
     <lastmod>2020-04-19</lastmod>
     
@@ -795,14 +795,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/Servlet/</loc>
+    <loc>https://www.just-null.cn/tags/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/tags/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/</loc>
+    <loc>https://www.just-null.cn/tags/Servlet/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1033,6 +1033,13 @@
   </url>
   
   <url>
+    <loc>https://www.just-null.cn/tags/%E9%9B%86%E7%BE%A4/</loc>
+    <lastmod>2021-01-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.just-null.cn/tags/Java/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
@@ -1041,13 +1048,6 @@
   
   <url>
     <loc>https://www.just-null.cn/tags/BeanUtils/</loc>
-    <lastmod>2021-01-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.just-null.cn/tags/%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1385,7 +1385,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/SpringBoot/Servlet/</loc>
+    <loc>https://www.just-null.cn/categories/SpringBoot/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1406,7 +1406,7 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/SpringBoot/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/</loc>
+    <loc>https://www.just-null.cn/categories/SpringBoot/Servlet/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1448,14 +1448,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Java/</loc>
+    <loc>https://www.just-null.cn/categories/SpringBoot/Transacation/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/SpringBoot/Transacation/</loc>
+    <loc>https://www.just-null.cn/categories/Java/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1686,14 +1686,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Java/BeanUtils/</loc>
+    <loc>https://www.just-null.cn/categories/Zookeeper/%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Zookeeper/%E9%9B%86%E7%BE%A4/</loc>
+    <loc>https://www.just-null.cn/categories/Java/BeanUtils/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1791,14 +1791,14 @@
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Spring/IOC/%E8%80%A6%E5%90%88%E4%B8%8E%E8%A7%A3%E8%80%A6/XML/</loc>
+    <loc>https://www.just-null.cn/categories/Spring/IOC/%E8%80%A6%E5%90%88%E4%B8%8E%E8%A7%A3%E8%80%A6/%E6%B3%A8%E8%A7%A3/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.just-null.cn/categories/Spring/IOC/%E8%80%A6%E5%90%88%E4%B8%8E%E8%A7%A3%E8%80%A6/%E6%B3%A8%E8%A7%A3/</loc>
+    <loc>https://www.just-null.cn/categories/Spring/IOC/%E8%80%A6%E5%90%88%E4%B8%8E%E8%A7%A3%E8%80%A6/XML/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
