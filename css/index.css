@@ -2172,7 +2172,7 @@ blockquote footer cite:before {
 .flink#article-container .flink-list > .flink-list-item {
   position: relative;
   float: left;
-  background: #f7f7fa;
+  background: var(--just-color);
   overflow: hidden;
   margin: 6px 6px;
   width: calc(100% / 3 - 12px);
@@ -7844,6 +7844,7 @@ div.timenode .meta:after {
   --blockquote-bg: #2c2c2c;
   --reward-pop: #2c2c2c;
   --toc-link-color: rgba(255,255,255,0.6);
+  --just-color: #252627;
 }
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
