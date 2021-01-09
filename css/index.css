@@ -4311,7 +4311,8 @@ _:future,
   text-decoration: underline;
 }
 #article-container img {
-  margin: 0 auto 0.8rem;
+  border-radius: 12px;
+  margin: 0 auto 1.5rem auto;
 }
 #article-container p {
   margin: 0 0 0.8rem;
