@@ -1358,6 +1358,7 @@ canvas:not(#ribbon-canvas),
   --blockquote-bg: rgba(73,177,245,0.1);
   --reward-pop: #f5f5f5;
   --toc-link-color: #666261;
+  --just-color: #f7f7fa;
 }
 html {
   height: 100%;
@@ -2331,8 +2332,8 @@ blockquote footer cite:before {
   -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
 }
 #recent-posts > .recent-post-item .post_cover img.post_bg {
-  width: 395;
-  height: 280;
+  width: 395px;
+  height: 280px;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -o-transition: all 0.6s;
