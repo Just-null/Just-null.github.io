@@ -8177,6 +8177,7 @@ div.timenode .meta:after {
   color: var(--font-color);
 }
 .search-dialog {
+  border-radius: 12px;
   position: fixed;
   top: 5rem;
   left: 50%;
@@ -8233,6 +8234,7 @@ div.timenode .meta:after {
   background: rgba(0,0,0,0.6);
 }
 #local-search .search-dialog {
+  border-radius: 12px;
   -webkit-animation: titlescale 0.5s;
   -moz-animation: titlescale 0.5s;
   -o-animation: titlescale 0.5s;
