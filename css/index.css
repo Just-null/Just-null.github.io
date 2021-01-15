@@ -3205,6 +3205,10 @@ blockquote footer cite:before {
   font-weight: bold;
   text-transform: none;
 }
+#catalogMagnet figure .gallery-group-img {
+  height: 150px;
+  width: 145px;
+}
 #catalogMagnet .color-card {
   width: 15.65% !important;
   height: 145px !important;
@@ -3227,10 +3231,6 @@ blockquote footer cite:before {
 #catalogMagnet figure .gallery-group.color-card {
   -webkit-box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
   box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
-}
-#catalogMagnet figure .gallery-group-img {
-  height: 150px;
-  width: 145px;
 }
 #catalogMagnet figcaption {
   background-image: -webkit-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
