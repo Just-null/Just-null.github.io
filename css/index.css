@@ -3216,10 +3216,10 @@ blockquote footer cite:before {
     height: 150px !important;
     margin: 0.3rem 1% !important;
   }
-}
-#catalogMagnet .gallery-group-img {
-  height: 150px;
-  width: 320px;
+  #catalogMagnet .gallery-group-img {
+    height: 150px;
+    width: 320px;
+  }
 }
 #catalogMagnet .magnetname:after {
   background: #fff !important;
