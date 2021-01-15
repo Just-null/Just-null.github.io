@@ -3217,6 +3217,10 @@ blockquote footer cite:before {
     margin: 0.3rem 1% !important;
   }
 }
+#catalogMagnet figure .gallery-group-img {
+  height: 150px;
+  width: 320px;
+}
 #catalogMagnet .magnetname:after {
   background: #fff !important;
 }
@@ -3225,7 +3229,7 @@ blockquote footer cite:before {
   box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
 }
 #catalogMagnet figure .gallery-group-img {
-  height: 149px;
+  height: 150px;
   width: 145px;
 }
 #catalogMagnet figcaption {
