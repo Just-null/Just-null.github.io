@@ -3224,10 +3224,6 @@ blockquote footer cite:before {
   -webkit-box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
   box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
 }
-#catalogMagnet figure .gallery-group.img {
-  height: 100%;
-  width: 100%;
-}
 #catalogMagnet figcaption {
   background-image: -webkit-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
   background-image: -moz-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
