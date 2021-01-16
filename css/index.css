@@ -3634,6 +3634,7 @@ _:future,
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  width: 5%;
 }
 #nav #toggle-menu {
   display: none;
