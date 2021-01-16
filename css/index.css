@@ -4241,6 +4241,7 @@ _:future,
   -ms-transition: all 0.6s;
   transition: all 0.6s;
   object-fit: cover;
+  border-radius: 12px;
 }
 #pagination .pagination-info {
   position: absolute;
@@ -4299,6 +4300,7 @@ _:future,
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  border-radius: 12px;
 }
 #pagination.pagination-post {
   margin: 2rem 0 !important;
@@ -4714,6 +4716,7 @@ _:future,
   -ms-transition: all 0.6s;
   transition: all 0.6s;
   object-fit: cover;
+  border-radius: 12px;
 }
 .relatedPosts > .relatedPosts-list .content {
   position: absolute;
