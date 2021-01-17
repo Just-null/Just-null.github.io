@@ -1548,6 +1548,7 @@ a:hover {
   -o-transform-origin: 0 50%;
   -ms-transform-origin: 0 50%;
   transform-origin: 0 50%;
+  border-radius: 25px;
 }
 .button--animated:hover:before {
   -webkit-transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
@@ -1560,6 +1561,7 @@ a:hover {
   -o-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
+  border-radius: 25px;
 }
 img {
   max-width: 100%;
@@ -4241,7 +4243,6 @@ _:future,
   -ms-transition: all 0.6s;
   transition: all 0.6s;
   object-fit: cover;
-  border-radius: 12px;
 }
 #pagination .pagination-info {
   position: absolute;
@@ -4305,6 +4306,7 @@ _:future,
 #pagination.pagination-post {
   margin: 2rem 0 !important;
   background: #000;
+  border-radius: 12px;
 }
 #article-container {
   word-wrap: break-word;
@@ -4600,6 +4602,7 @@ _:future,
   -o-transition: box-shadow 0.3s ease-in-out;
   -ms-transition: box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
 }
 #post .post-copyright:before {
   position: absolute;
@@ -4681,6 +4684,7 @@ _:future,
   height: 200px;
   background: #000;
   vertical-align: bottom;
+  border-radius: 12px;
 }
 .relatedPosts > .relatedPosts-list > div:hover .cover {
   opacity: 0.8;
@@ -4754,6 +4758,7 @@ _:future,
   -o-transition: all 0.4s;
   -ms-transition: all 0.4s;
   transition: all 0.4s;
+  border-radius: 25px;
 }
 .post-reward .reward-button:hover {
   -webkit-box-shadow: inset 9em 0 0 0 var(--btn-hover-color);
