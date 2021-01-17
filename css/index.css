@@ -3207,14 +3207,14 @@ blockquote footer cite:before {
   font-weight: bold;
   text-transform: none;
 }
-#catalogMagnet figure .gallery-group-img {
-  height: 150px;
-  width: 145px;
-}
 #catalogMagnet .color-card {
   width: 15.65% !important;
   height: 145px !important;
   margin: 0.3rem 0.5% !important;
+}
+#catalogMagnet .gallery-group-img {
+  height: 150px;
+  width: 145px;
 }
 @media screen and (max-width: 650px) {
   #catalogMagnet .color-card {
@@ -3222,7 +3222,7 @@ blockquote footer cite:before {
     height: 150px !important;
     margin: 0.3rem 1% !important;
   }
-  #catalogMagnet .color-card figure .gallery-group-img {
+  #catalogMagnet .gallery-group-img {
     height: 150px;
     width: 320px;
   }
