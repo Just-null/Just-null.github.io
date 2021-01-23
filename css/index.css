@@ -1716,7 +1716,7 @@ blockquote footer cite:before {
 #article-container pre,
 #article-container code {
   font-size: 14px;
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif !important;
+  font-family: Poem !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
@@ -6806,7 +6806,7 @@ div.videos[col='4'] iframe {
 }
 @font-face {
   font-family: 'Poem';
-  src: url("https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io@bf_3.4.1_1/fonts/Poem.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/Just-null/fonts/JetBrainsMono-Regular.woff2");
   font-display: swap;
 }
 .poem p {
@@ -6973,7 +6973,7 @@ p.p.logo {
 }
 span.p.code,
 p.p.code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+  font-family: Poem;
 }
 span.p.left,
 p.p.left {
