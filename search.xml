@@ -779,35 +779,6 @@
     
     
     <entry>
-      <title>SpringBoot常用注解</title>
-      <link href="posts/SpringBoot_ano.html"/>
-      <url>posts/SpringBoot_ano.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="SpringBoot常用注解"><a href="#SpringBoot常用注解" class="headerlink" title="SpringBoot常用注解"></a>SpringBoot常用注解</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><div class="note info no-icon flat"><ul><li>IDEA</li><li>Mysql</li></ul></div><h2 id="注解描述"><a href="#注解描述" class="headerlink" title="注解描述"></a>注解描述</h2><h3 id="Controller"><a href="#Controller" class="headerlink" title="@Controller"></a>@Controller</h3><div class="note info no-icon flat"><p>Spring MVC 的注解，处理 http 请求</p></div><h3 id="RestController"><a href="#RestController" class="headerlink" title="@RestController"></a>@RestController</h3><div class="note info no-icon flat"><p>Spring 4 后新增注解，是@Controller 注解功能的增强，是 @Controller 与@ResponseBody 的组合注解，如果一个 Controller 类添加了@RestController，那么该 Controller 类下的所有方法都相当于添加了@ResponseBody 注解，用于返回字符串或 json 数据。</p><p><font color=red>也就是说添加了该注解，那么该控制类中所有的方法返回数据的格式都是json格式</font></p></div><h3 id="RequestMapping"><a href="#RequestMapping" class="headerlink" title="@RequestMapping"></a>@RequestMapping</h3><div class="note info no-icon flat"><p>支持 Get 请求，也支持 Post 请求</p></div><h3 id="GetMapping"><a href="#GetMapping" class="headerlink" title="@GetMapping"></a>@GetMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Get 请求方法的组合，只支持 Get 请求，Get 请求主要用于查询操作</p></div><h3 id="PostMapping"><a href="#PostMapping" class="headerlink" title="@PostMapping"></a>@PostMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Post 请求方法的组合，只支持 Post 请求，Post 请求主要用户新增数据</p></div><h3 id="PutMapping"><a href="#PutMapping" class="headerlink" title="@PutMapping"></a>@PutMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Put 请求方法的组合，只支持 Put 请求，Put 通常用于修改数据</p></div><h3 id="DeleteMapping"><a href="#DeleteMapping" class="headerlink" title="@DeleteMapping"></a>@DeleteMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Delete 请求方法的组合，只支持 Delete 请求，通常用于删除数据</p></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> SpringBoot </category>
-          
-          <category> 注解 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> SpringBoot </tag>
-            
-            <tag> 注解 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>SpringBoot事物支持</title>
       <link href="posts/SpringBoot_tran.html"/>
       <url>posts/SpringBoot_tran.html</url>
@@ -829,6 +800,35 @@
             <tag> SpringBoot </tag>
             
             <tag> Transacation </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SpringBoot常用注解</title>
+      <link href="posts/SpringBoot_ano.html"/>
+      <url>posts/SpringBoot_ano.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="SpringBoot常用注解"><a href="#SpringBoot常用注解" class="headerlink" title="SpringBoot常用注解"></a>SpringBoot常用注解</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><div class="note info no-icon flat"><ul><li>IDEA</li><li>Mysql</li></ul></div><h2 id="注解描述"><a href="#注解描述" class="headerlink" title="注解描述"></a>注解描述</h2><h3 id="Controller"><a href="#Controller" class="headerlink" title="@Controller"></a>@Controller</h3><div class="note info no-icon flat"><p>Spring MVC 的注解，处理 http 请求</p></div><h3 id="RestController"><a href="#RestController" class="headerlink" title="@RestController"></a>@RestController</h3><div class="note info no-icon flat"><p>Spring 4 后新增注解，是@Controller 注解功能的增强，是 @Controller 与@ResponseBody 的组合注解，如果一个 Controller 类添加了@RestController，那么该 Controller 类下的所有方法都相当于添加了@ResponseBody 注解，用于返回字符串或 json 数据。</p><p><font color=red>也就是说添加了该注解，那么该控制类中所有的方法返回数据的格式都是json格式</font></p></div><h3 id="RequestMapping"><a href="#RequestMapping" class="headerlink" title="@RequestMapping"></a>@RequestMapping</h3><div class="note info no-icon flat"><p>支持 Get 请求，也支持 Post 请求</p></div><h3 id="GetMapping"><a href="#GetMapping" class="headerlink" title="@GetMapping"></a>@GetMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Get 请求方法的组合，只支持 Get 请求，Get 请求主要用于查询操作</p></div><h3 id="PostMapping"><a href="#PostMapping" class="headerlink" title="@PostMapping"></a>@PostMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Post 请求方法的组合，只支持 Post 请求，Post 请求主要用户新增数据</p></div><h3 id="PutMapping"><a href="#PutMapping" class="headerlink" title="@PutMapping"></a>@PutMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Put 请求方法的组合，只支持 Put 请求，Put 通常用于修改数据</p></div><h3 id="DeleteMapping"><a href="#DeleteMapping" class="headerlink" title="@DeleteMapping"></a>@DeleteMapping</h3><div class="note info no-icon flat"><p>RequestMapping 和 Delete 请求方法的组合，只支持 Delete 请求，通常用于删除数据</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> SpringBoot </category>
+          
+          <category> 注解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SpringBoot </tag>
+            
+            <tag> 注解 </tag>
             
         </tags>
       
@@ -2510,9 +2510,9 @@
             
             <tag> 教程 </tag>
             
-            <tag> Windows </tag>
-            
             <tag> gcc/g++ </tag>
+            
+            <tag> Windows </tag>
             
         </tags>
       

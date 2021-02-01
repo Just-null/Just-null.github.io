@@ -3553,7 +3553,7 @@ div#catalogMagnet::-webkit-scrollbar {
   background: 0;
 }
 #page-header.not-top-img #nav {
-  background: rgba(255,255,255,0.8);
+  background: var(--just-background);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
 }
@@ -3563,9 +3563,9 @@ div#catalogMagnet::-webkit-scrollbar {
 }
 #page-header.nav-fixed #nav {
   position: fixed;
-  top: -60px;
+  top: 0px;
   z-index: 91;
-  background: rgba(255,255,255,0.8);
+  background: var(--just-background);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   -webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
@@ -7901,6 +7901,7 @@ div.timenode .meta:after {
   --toc-link-color: rgba(255,255,255,0.6);
   --just-color: #252627;
 }
+[data-theme='dark'] --just-background:##1e1e1e,
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
