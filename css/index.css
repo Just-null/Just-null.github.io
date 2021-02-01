@@ -3563,7 +3563,7 @@ div#catalogMagnet::-webkit-scrollbar {
 }
 #page-header.nav-fixed #nav {
   position: fixed;
-  top: 0px;
+  top: -61px;
   z-index: 91;
   background: var(--just-background);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
@@ -7900,8 +7900,8 @@ div.timenode .meta:after {
   --reward-pop: #2c2c2c;
   --toc-link-color: rgba(255,255,255,0.6);
   --just-color: #252627;
+  --just-background: #1e1e1e;
 }
-[data-theme='dark'] --just-background:##1e1e1e,
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
