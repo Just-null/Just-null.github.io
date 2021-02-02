@@ -19,7 +19,8 @@
     background: var(--just-main);
     color: var(--just-white)
     }[data-theme=light] {
-    --just-fontcolor: #F7F7FA;
+    --just-fontcolor:#363636;
+    --just-top-page:#F7F7FA;
     --just-background: #fff;
     --just-maskbg: rgba(255, 255, 255, 0.6);
     --just-navbg: rgba(255, 255, 255, 0.9);
@@ -34,6 +35,7 @@
     --just-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.1)
     }[data-theme=dark] {
     --just-fontcolor: #F7F7FA;
+    --just-top-page:#F7F7FA;
     --just-background: #1e1e1e;
     --just-maskbg: rgba(0,0,0, 0.6);
     --just-navbg: rgba(0,0,0, 0.9);
@@ -1257,7 +1259,7 @@
     }
     
     #post-info .post-title {
-    color: var(--just-fontcolor);
+    color: var(--just-top-page);
     font-weight: 700;
     font-size: 2.3rem;
     line-height: 1.2;
@@ -1272,12 +1274,12 @@
     }
     
     #post-info #post-meta {
-    color: var(--just-fontcolor)
+    color: var(--just-top-page)
     }
     
     #post-info #post-meta a {
     text-decoration: none;
-    color: var(--just-fontcolor)
+    color: var(--just-top-page)
     }
     
     #post-info #post-meta a:hover {
