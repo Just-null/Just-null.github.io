@@ -1319,7 +1319,7 @@ canvas:not(#ribbon-canvas),
   --btn-hover-color: #ff7242;
   --btn-color: #fff;
   --btn-bg: #49b1f5;
-  --text-bg-hover: #49b1f5;
+  --text-bg-hover: #f2f5f7;
   --light-grey: #eee;
   --white: #fff;
   --text-highlight-color: #1f2d3d;
@@ -3697,15 +3697,6 @@ _:future,
   -ms-filter: none;
   filter: none;
 }
-#nav #blog_name {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -o-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
 #nav #toggle-menu {
   display: none;
   padding: 0.1rem 0 0 0.3rem;
@@ -3751,22 +3742,7 @@ _:future,
   -ms-transition: -ms-transform 0.3s;
   transition: transform 0.3s;
 }
-#nav .menus_items .menus_item > a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  width: 0;
-  height: 3px;
-  background-color: #80c8f8;
-  content: '';
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-#nav .menus_items .menus_item > a:hover:after {
+#nav .menus_items .menus_item i.expand:hover:after {
   width: 100%;
 }
 #nav .menus_items .menus_item .menus_item_child {
@@ -7853,7 +7829,7 @@ div.timenode .meta:after {
   --btn-hover-color: #787878;
   --btn-color: rgba(255,255,255,0.7);
   --btn-bg: #1f1f1f;
-  --text-bg-hover: #383838;
+  --text-bg-hover: #000;
   --light-grey: rgba(255,255,255,0.7);
   --white: rgba(255,255,255,0.9);
   --text-highlight-color: rgba(255,255,255,0.9);
