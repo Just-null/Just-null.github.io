@@ -639,14 +639,14 @@
   </url>
   
   <url>
-    <loc>https://blog.just-null.cn/books/index.html</loc>
+    <loc>https://blog.just-null.cn/about/index.html</loc>
     
     <lastmod>2020-04-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.just-null.cn/about/index.html</loc>
+    <loc>https://blog.just-null.cn/books/index.html</loc>
     
     <lastmod>2020-04-19</lastmod>
     
@@ -1469,13 +1469,6 @@
   </url>
   
   <url>
-    <loc>https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/Jdk/Windows/</loc>
-    <lastmod>2021-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.just-null.cn/categories/Zookeeper/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
@@ -1484,6 +1477,13 @@
   
   <url>
     <loc>https://blog.just-null.cn/categories/SpringBoot/Logback/</loc>
+    <lastmod>2021-02-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/Jdk/Windows/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
