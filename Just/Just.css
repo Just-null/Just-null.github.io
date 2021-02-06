@@ -1766,7 +1766,8 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 }
 
 .img-alt {
-    font-size: 16px
+    font-size: 16px;
+    margin-top: 6px;
 }
 
 @media screen and (min-width:769px) {
