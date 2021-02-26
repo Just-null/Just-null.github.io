@@ -544,7 +544,7 @@ a.darkmode_switchbutton {
     padding-top: 60px;
 }
 .page #category{
-    padding-top: 60px;
+    margin-top: 60px;
 }
 @media screen and (max-width: 900px){
     #aside-content {
