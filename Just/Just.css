@@ -933,14 +933,8 @@ a.categoryButton:hover {
     }
 }
 a.article-meta__categories {
-	position: absolute;
-	padding: 4px 10px;
 	background: var(--just-card-bg);
 	border-radius: 32px;
-	margin-left: 16px;
-	transform: translateY(-85px);
-	font-size: .6rem;
-	font-weight: 700
 }
 
 a.article-meta__categories:hover {
