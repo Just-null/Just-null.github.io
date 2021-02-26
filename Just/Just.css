@@ -15,7 +15,7 @@
     --just-logo-color: linear-gradient(215deg,#4584ff 30%,#ff7676 70%)
 }
 ::selection {
-    background: var(--just-main);
+    background: var(--just-blue);
     color: var(--just-white)
 }[data-theme=light] {
      --just-fontcolor:#363636;
@@ -31,7 +31,8 @@
      --just-post-blockquote-bg: #f2f5f7;
      --just-post-tabs-bg: #f2f5f7;
      --just-sceondbg: #F7F7FA;
-     --just-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.1)
+     --just-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.1);
+     --just-card-bg: #fff
  }[data-theme=dark] {
       --just-fontcolor: #F7F7FA;
       --just-top-page:#F7F7FA;
@@ -46,7 +47,8 @@
       --just-post-blockquote-bg: #000;
       --just-post-tabs-bg: #121212;
       --just-sceondbg: #252627;
-      --just-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4)
+      --just-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+      --just-card-bg: #1d1b26;
   }
 @font-face{
     font-family:'Just';
@@ -111,7 +113,8 @@
     padding: 6px 8px 8px 8px;
     right: -100px;
     border-radius: 12px;
-    background: var(--just-background)
+    background: var(--just-card-bg);
+	box-shadow: var(--just-shadow-black)
 }
 
 #nav .menus_items .menus_item .menus_item_child li a:hover {
@@ -140,7 +143,7 @@
 #page-header.nav-fixed #nav {
     top: 0;
     transition: .2s;
-    background: var(--just-background)!important;
+    background: var(--just-card-bg)!important;
     box-shadow: var(--just-shadow-nav)!important
 }
 
@@ -158,7 +161,8 @@
 }
 
 #page-header.no-top-img #nav {
-    background: var(--just-background)!important
+    box-shadow: var(--just-shadow-lightblack);
+	background: var(--just-card-bg)
 }
 
 #page-header.nav-fixed #nav #menus>div.menus_items {
@@ -353,7 +357,7 @@ i.fab {
 .search-dialog {
     border-radius: 12px!important;
     box-shadow: var(--just-shadow-lightblack);
-    background: var(--just-background)
+    background: var(--just-card-bg)
 }
 
 #algolia-tips {
@@ -522,7 +526,7 @@ a.darkmode_switchbutton {
 }
 
 #footer {
-    background: var(--just-background)
+    background: var(--just-card-bg)
 }
 
 #algolia-search .ais-hits--item.algolia-hit-item a {
@@ -537,6 +541,9 @@ a.darkmode_switchbutton {
     background: var(--just-maskbg)
 }
 .page #aside-content{
+    padding-top: 60px;
+}
+.page #category{
     padding-top: 60px;
 }
 @media screen and (max-width: 900px){
@@ -866,7 +873,7 @@ a.categoryButton:hover {
 
 #recent-posts>.recent-post-item {
     height: 15.5em;
-    background: var(--just-background)
+    background: var(--just-card-bg)
 }
 
 @media screen and (min-width:769px) {
@@ -893,7 +900,8 @@ a.categoryButton:hover {
 }
 
 #aside-content .card-widget {
-    box-shadow: var(--just-shadow-lightblack)
+    box-shadow: var(--just-shadow-lightblack);
+    background: var(--heo-card-bg)
 }
 
 #aside-content .card-widget:hover {
@@ -923,6 +931,16 @@ a.categoryButton:hover {
     #loading-box {
         display: none
     }
+}
+a.article-meta__categories {
+	position: absolute;
+	padding: 4px 10px;
+	background: var(--just-card-bg);
+	border-radius: 32px;
+	margin-left: 16px;
+	transform: translateY(-85px);
+	font-size: .6rem;
+	font-weight: 700
 }
 
 a.article-meta__categories:hover {
@@ -1167,7 +1185,7 @@ a.extend.prev {
 }
 
 #page-header.post-bg {
-    background-color: var(--just-navbg);
+    background-color: var(--just-card-bg);
     transition: .3s
 }
 
@@ -1195,7 +1213,8 @@ a.extend.prev {
 .layout>div:first-child:not(.recent-posts) {
     box-shadow: var(--just-shadow-lightblack);
     padding: 10px 40px 40px 40px;
-    border-radius: 12px
+    border-radius: 12px;
+    background: var(--just-card-bg)
 }
 
 .layout>div:first-child:not(.recent-posts):hover {
@@ -1591,7 +1610,7 @@ blockquote {
 @media screen and (min-width:769px) {
     #pagination .page-number {
         width: 2rem;
-        background: var(--card-bg);
+        background: var(--just-card-bg);
         height: 2rem;
         line-height: 2rem;
         border-radius: 8px!important;
