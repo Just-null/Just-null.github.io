@@ -6,7 +6,7 @@
   <link href="https://blog.just-null.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.just-null.cn/"/>
-  <updated>2021-02-24T05:19:23.000Z</updated>
+  <updated>2021-03-02T05:19:23.000Z</updated>
   <id>https://blog.just-null.cn/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows只安装Office三件套</title>
+    <link href="https://blog.just-null.cn/posts/windows_office.html"/>
+    <id>https://blog.just-null.cn/posts/windows_office.html</id>
+    <published>2021-03-02T05:02:40.000Z</published>
+    <updated>2021-03-02T05:19:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><div class="note info no-icon flat"><ul><li>Office全家桶包括Word、Excel、PowerPoint、Outlook等众多产品，但是在大多数人中，只会使用到Word、Excel、PowerPoint这三个产品，而通过下载Office镜像进行安装的方式会将所有的产品都安装在我们电脑中，浪费我们的电脑空间，因此我们可以想办法只安装自己能用到的东西即可</li></ul></div><h1 id="镜像准备"><a href="#镜像准备" class="headerlink" title="镜像准备"></a>镜像准备</h1><p>将下载下来的镜像挂载（双击即可挂载），记住挂载的磁盘驱动器号</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210302154800977.png" alt="挂载"></p><h1 id="工具下载并安装"><a href="#工具下载并安装" class="headerlink" title="工具下载并安装"></a>工具下载并安装</h1><p>从<a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=49117">官网</a>下载Office部署工具</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210302154048532.png" alt="Office部署工具"></p><p>下载下来一个可执行文件，双击打开并安装</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210302154321402.png"></p><p>安装完成之后会在自己选择的安装位置生成四个文件，我们只需要只用其中两个即可</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210302154438390.png"></p><p>打开configuration-Office365-x64.xml文件，使用如下去内容替换其中的内容</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Configuration</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">Add</span> <span class="attr">SourcePath</span>=<span class="string">&quot;I:\&quot;</span> <span class="attr">OfficeClientEdition</span>=<span class="string">&quot;64&quot;</span> &gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Product</span> <span class="attr">ID</span>=<span class="string">&quot;ProPlusRetail&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">Language</span> <span class="attr">ID</span>=<span class="string">&quot;zh-CN&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;Access&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;Groove&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;InfoPath&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;Lync&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;OneNote&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;Outlook&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;Publisher&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ExcludeApp</span> <span class="attr">ID</span>=<span class="string">&quot;SharePointDesigner&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">Product</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">Add</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">Configuration</span>&gt;</span></span><br></pre></td></tr></table></figure><div class="note info no-icon flat"><ul><li>OfficeClientEdition表示架构，安装32位则改为32</li><li>SourcePath表示Office镜像挂载的位置</li><li>Language表示语言，zh-CN表示中文，英文则为en-us</li><li>ExcludeApp表示不被安装的组件</li></ul></div><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>按住<kbd>Windows</kbd> + <kbd>R</kbd>进入命令行工具，在命令行中使用cd命令进入工具安装的目录</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/cmdutils.png" alt="Cmd"></p><p>执行下面命令安装进行安装</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">setup.exe /configure configuration-Office365-x64.xml</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/anz.png" alt="安装"></p><p>等待安装完成</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/azwc.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;ul&gt;
+&lt;li&gt;Office全家桶包括Word、Excel、PowerP</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/Windows/"/>
+    
+    <category term="Office" scheme="https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/Windows/Office/"/>
+    
+    
+    <category term="教程" scheme="https://blog.just-null.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="https://blog.just-null.cn/tags/Windows/"/>
+    
+    <category term="Office" scheme="https://blog.just-null.cn/tags/Office/"/>
+    
+  </entry>
   
   <entry>
     <title>axios基本使用</title>
@@ -557,36 +590,6 @@
     <category term="Zookeeper" scheme="https://blog.just-null.cn/tags/Zookeeper/"/>
     
     <category term="Shell" scheme="https://blog.just-null.cn/tags/Shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Zookeeper安装</title>
-    <link href="https://blog.just-null.cn/posts/zookeeper_dpkg.html"/>
-    <id>https://blog.just-null.cn/posts/zookeeper_dpkg.html</id>
-    <published>2020-12-29T02:46:40.000Z</published>
-    <updated>2020-12-29T03:19:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h1><div class="note info no-icon flat"><ul><li>CentOS7</li><li>zookeeper-3.4.10</li><li>Jdk8</li></ul></div><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="系统用户添加"><a href="#系统用户添加" class="headerlink" title="系统用户添加"></a>系统用户添加</h2><p>在centos中使用root用户创建zookeeper用户，用户名：zookeeper</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">useradd zookeeper</span><br><span class="line">passwd zookeeper</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229103624503.png" alt="创建用户成功"></p><h2 id="用户登录"><a href="#用户登录" class="headerlink" title="用户登录"></a>用户登录</h2><p>使用zookeeper用户登录</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229103904233.png"></p><h2 id="JDK安装"><a href="#JDK安装" class="headerlink" title="JDK安装"></a>JDK安装</h2><p>zookeeper底层依赖于jdk，zookeeper用户登录后，根目录下先进行jdk的安装,安装教程前往<a href="https://www.just-null.cn/posts/4226563224.html">Linux系统下Jdk的安装</a></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229104124361.png" alt="JDK"></p><h2 id="Zookeeper安装"><a href="#Zookeeper安装" class="headerlink" title="Zookeeper安装"></a>Zookeeper安装</h2><h3 id="上传zookeeper到Linux"><a href="#上传zookeeper到Linux" class="headerlink" title="上传zookeeper到Linux"></a>上传zookeeper到Linux</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229104613904.png"></p><h3 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tar -xzvf zookeeper-3.4.10.tar.gz</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229104747875.png"></p><h3 id="准备配置文件"><a href="#准备配置文件" class="headerlink" title="准备配置文件"></a>准备配置文件</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">// 进入conf目录 </span><br><span class="line">cd /home/zookeeper/zookeeper-3.4.10/conf </span><br><span class="line">// 复制配置文件 </span><br><span class="line">cp zoo_sample.cfg zoo.cfg </span><br><span class="line">// zookeeper根目录下新建data目录 </span><br><span class="line">mkdir data </span><br><span class="line">// vi 修改配置文件中的dataDir </span><br><span class="line">// 此路径用于存储zookeeper中数据的内存快照、及事物日志文件 </span><br><span class="line">dataDir=/home/zookeeper/zookeeper-3.4.10/data</span><br></pre></td></tr></table></figure><p>![准备配置文件](/Users/just/Library/Application Support/typora-user-images/image-20201229105142820.png)</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229105242930.png" alt="修改配置文件"></p><h3 id="启动zookeeper"><a href="#启动zookeeper" class="headerlink" title="启动zookeeper"></a>启动zookeeper</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">// 进入zookeeper的bin目录 </span><br><span class="line"><span class="built_in">cd</span> /home/zookeeper/zookeeper-3.4.10/bin </span><br><span class="line">// 启动zookeeper </span><br><span class="line">./zkServer.sh start </span><br><span class="line">//启动：zkServer.sh start </span><br><span class="line">//停止：zkServer.sh stop </span><br><span class="line">//查看状态：zkServer.sh status</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229105528421.png" alt="启动zookeeper"></p><h3 id="通过客户端连接服务器"><a href="#通过客户端连接服务器" class="headerlink" title="通过客户端连接服务器"></a>通过客户端连接服务器</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd /home/zookeeper/zookeeper-3.4.10/bin </span><br><span class="line">./zkCli.sh</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229110713007.png"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h1&gt;&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;ul&gt;
-&lt;li&gt;CentOS7&lt;/li&gt;
-&lt;li&gt;zookeeper-3</summary>
-      
-    
-    
-    
-    <category term="Zookeeper" scheme="https://blog.just-null.cn/categories/Zookeeper/"/>
-    
-    <category term="安装" scheme="https://blog.just-null.cn/categories/Zookeeper/%E5%AE%89%E8%A3%85/"/>
-    
-    
-    <category term="Zookeeper" scheme="https://blog.just-null.cn/tags/Zookeeper/"/>
-    
-    <category term="安装" scheme="https://blog.just-null.cn/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
