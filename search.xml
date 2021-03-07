@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>MacOS安装Homebrew</title>
+      <link href="posts/homebrew.html"/>
+      <url>posts/homebrew.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Homebrew介绍"><a href="#Homebrew介绍" class="headerlink" title="Homebrew介绍"></a>Homebrew介绍</h1><div class="note info no-icon flat"><ul><li>Homebrew是Mac的OS X上的软件安装管理工具，类似于apt-get或者yum。拥有安装、卸载、更新、查看、搜索等很多实用的功能。简单的一条指令，就可以实现包管理，而不用你关心各种依赖和文件路径的情况，十分方便快捷。</li><li>官网：<a href="https://brew.sh/">https://brew.sh/</a></li></ul></div><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">ruby -e <span class="string">&quot;<span class="subst">$(curl --insecure -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>&quot;</span></span><br></pre></td></tr></table></figure><p>因为使用该方式安装时，源在国外，如果安装过程中出现了403，比如如下所示</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145652342.png" alt="403"></p><p>那么请使用该命令</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145459374.png"></p><p>选择中科源或者其他国内源</p><p>等待安装完成</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145515843.png" alt="等待安装完成"></p><h1 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h1><p>安装完成之后使用brew -v命令检测</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145628236.png" alt="检测"></p><h1 id="Homebrew命令的基本使用"><a href="#Homebrew命令的基本使用" class="headerlink" title="Homebrew命令的基本使用"></a>Homebrew命令的基本使用</h1><div class="note info no-icon flat"><ul><li><p>安装任意包</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew install 包名</span><br></pre></td></tr></table></figure></li><li><p>卸载任意包</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew uninstall 包名</span><br></pre></td></tr></table></figure></li><li><p>查看已安装包列表</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew list</span><br></pre></td></tr></table></figure></li><li><p>查看任意包信息</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew info 包名</span><br></pre></td></tr></table></figure></li><li><p>更新Homebrew</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew update</span><br></pre></td></tr></table></figure></li><li><p>查看Homebrew版本</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew -v</span><br></pre></td></tr></table></figure></li><li><p>Homebrew帮助信息</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew -h</span><br></pre></td></tr></table></figure></li></ul></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> MacOS </category>
+          
+          <category> Homebrew </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> MacOS </tag>
+            
+            <tag> Homebrew </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows只安装Office三件套</title>
       <link href="posts/windows_office.html"/>
       <url>posts/windows_office.html</url>

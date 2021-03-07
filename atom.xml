@@ -6,7 +6,7 @@
   <link href="https://blog.just-null.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.just-null.cn/"/>
-  <updated>2021-03-02T05:19:23.000Z</updated>
+  <updated>2021-03-07T05:19:23.000Z</updated>
   <id>https://blog.just-null.cn/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MacOS安装Homebrew</title>
+    <link href="https://blog.just-null.cn/posts/homebrew.html"/>
+    <id>https://blog.just-null.cn/posts/homebrew.html</id>
+    <published>2021-03-07T05:02:40.000Z</published>
+    <updated>2021-03-07T05:19:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Homebrew介绍"><a href="#Homebrew介绍" class="headerlink" title="Homebrew介绍"></a>Homebrew介绍</h1><div class="note info no-icon flat"><ul><li>Homebrew是Mac的OS X上的软件安装管理工具，类似于apt-get或者yum。拥有安装、卸载、更新、查看、搜索等很多实用的功能。简单的一条指令，就可以实现包管理，而不用你关心各种依赖和文件路径的情况，十分方便快捷。</li><li>官网：<a href="https://brew.sh/">https://brew.sh/</a></li></ul></div><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">ruby -e <span class="string">&quot;<span class="subst">$(curl --insecure -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>&quot;</span></span><br></pre></td></tr></table></figure><p>因为使用该方式安装时，源在国外，如果安装过程中出现了403，比如如下所示</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145652342.png" alt="403"></p><p>那么请使用该命令</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145459374.png"></p><p>选择中科源或者其他国内源</p><p>等待安装完成</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145515843.png" alt="等待安装完成"></p><h1 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h1><p>安装完成之后使用brew -v命令检测</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_utils/image-20210307145628236.png" alt="检测"></p><h1 id="Homebrew命令的基本使用"><a href="#Homebrew命令的基本使用" class="headerlink" title="Homebrew命令的基本使用"></a>Homebrew命令的基本使用</h1><div class="note info no-icon flat"><ul><li><p>安装任意包</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew install 包名</span><br></pre></td></tr></table></figure></li><li><p>卸载任意包</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew uninstall 包名</span><br></pre></td></tr></table></figure></li><li><p>查看已安装包列表</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew list</span><br></pre></td></tr></table></figure></li><li><p>查看任意包信息</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew info 包名</span><br></pre></td></tr></table></figure></li><li><p>更新Homebrew</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew update</span><br></pre></td></tr></table></figure></li><li><p>查看Homebrew版本</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew -v</span><br></pre></td></tr></table></figure></li><li><p>Homebrew帮助信息</p><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">brew -h</span><br></pre></td></tr></table></figure></li></ul></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Homebrew介绍&quot;&gt;&lt;a href=&quot;#Homebrew介绍&quot; class=&quot;headerlink&quot; title=&quot;Homebrew介绍&quot;&gt;&lt;/a&gt;Homebrew介绍&lt;/h1&gt;&lt;div class=&quot;note info no-icon flat&quot;&gt;&lt;ul&gt;
+</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="MacOS" scheme="https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/MacOS/"/>
+    
+    <category term="Homebrew" scheme="https://blog.just-null.cn/categories/%E6%95%99%E7%A8%8B/MacOS/Homebrew/"/>
+    
+    
+    <category term="教程" scheme="https://blog.just-null.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="MacOS" scheme="https://blog.just-null.cn/tags/MacOS/"/>
+    
+    <category term="Homebrew" scheme="https://blog.just-null.cn/tags/Homebrew/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows只安装Office三件套</title>
@@ -562,34 +595,6 @@
     <category term="Zookeeper" scheme="https://blog.just-null.cn/tags/Zookeeper/"/>
     
     <category term="acl" scheme="https://blog.just-null.cn/tags/acl/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Zookeeper常用shell命令</title>
-    <link href="https://blog.just-null.cn/posts/zookeeper_shell.html"/>
-    <id>https://blog.just-null.cn/posts/zookeeper_shell.html</id>
-    <published>2020-12-29T03:02:40.000Z</published>
-    <updated>2020-12-29T04:19:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="zookeeper常用Shell命令"><a href="#zookeeper常用Shell命令" class="headerlink" title="zookeeper常用Shell命令"></a>zookeeper常用Shell命令</h1><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><div class="note info no-icon flat"><ul><li>CentOS7</li><li>zookeeper-3.4.10</li><li>Jdk8</li></ul></div><h2 id="新增节点"><a href="#新增节点" class="headerlink" title="新增节点"></a>新增节点</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">create [-s] [-e] path data #其中-s 为有序节点，-e 临时节点</span><br></pre></td></tr></table></figure><h3 id="创建持久化节点并写入数据："><a href="#创建持久化节点并写入数据：" class="headerlink" title="创建持久化节点并写入数据："></a>创建持久化节点并写入数据：</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">create /hadoop &quot;123456&quot;</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229110836996.png" alt="持久化节点"></p><h3 id="创建持久化有序节点，此时创建的节点名为指定节点名-自增序号"><a href="#创建持久化有序节点，此时创建的节点名为指定节点名-自增序号" class="headerlink" title="创建持久化有序节点，此时创建的节点名为指定节点名 + 自增序号"></a>创建持久化有序节点，此时创建的节点名为指定节点名 + 自增序号</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">create -s /a &quot;aaa&quot;</span><br><span class="line">create -s /b &quot;bbb&quot; </span><br><span class="line">create -s /c &quot;ccc&quot;</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229112514077.png" alt="创建持久化有序节点"></p><h3 id="创建临时节点，临时节点会在会话过期后被删除"><a href="#创建临时节点，临时节点会在会话过期后被删除" class="headerlink" title="创建临时节点，临时节点会在会话过期后被删除"></a>创建临时节点，临时节点会在会话过期后被删除</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">create -e /tmp <span class="string">&quot;tmp&quot;</span></span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229112448087.png" alt="临时节点"></p><h3 id="创建临时有序节点，临时节点会在会话过期后被删除："><a href="#创建临时有序节点，临时节点会在会话过期后被删除：" class="headerlink" title="创建临时有序节点，临时节点会在会话过期后被删除："></a>创建临时有序节点，临时节点会在会话过期后被删除：</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">create -s -e /aa &quot;aaa&quot; </span><br><span class="line">create -s -e /bb &quot;bbb&quot;</span><br><span class="line">create -s -e /cc &quot;ccc&quot;</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229112651634.png" alt="临时有序节点"></p><h2 id="更新节点"><a href="#更新节点" class="headerlink" title="更新节点"></a>更新节点</h2><p>更新节点的命令是 <code>set </code>，可以直接进行修改</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">set /hadoop &quot;345&quot; </span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229112828169.png" alt="更新节点"></p><p>也可以基于版本号进行更改，此时类似于乐观锁机制，当你传入的数据版本号 (dataVersion) 和当前节点的数据版本号不符合时，zookeeper 会拒绝本次修改：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229112955839.png" alt="版本号不符合"></p><h2 id="删除节点"><a href="#删除节点" class="headerlink" title="删除节点"></a>删除节点</h2><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">delete path [version]</span><br></pre></td></tr></table></figure><p>和更新节点数据一样，也可以传入版本号，当你传入的数据版本号 (dataVersion) ,和当前节点的数据版本号不符合时，zookeeper 不会执行删除操作。</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229113219366.png" alt="版本号不符合"></p><p><font color="red">要想删除某个节点及其所有后代节点，可以使用递归删除，命令为 rmr path 。</font></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229113448009.png" alt="删除某个节点及其所有后代节点"></p><h2 id="查看节点"><a href="#查看节点" class="headerlink" title="查看节点"></a>查看节点</h2><h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">get path</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229113631407.png" alt="查看节点 "></p><p>​        节点各个属性如下表。其中一个重要的概念是 Zxid(ZooKeeper Transaction Id)，ZooKeeper 节点的每一次更改都具有唯一的 Zxid，如果 Zxid1 小于 Zxid2，则 Zxid1 的更改发生在 Zxid2 更改之前。</p><table><thead><tr><th>状态属性</th><th>说明</th></tr></thead><tbody><tr><td>cZxid</td><td>数据节点创建时的事务 ID</td></tr><tr><td>ctime</td><td>数据节点创建时的时间</td></tr><tr><td>mZxid</td><td>数据节点最后一次更新时的事务 ID</td></tr><tr><td>mtime</td><td>数据节点最后一次更新时的时间</td></tr><tr><td>pZxid</td><td>数据节点的子节点最后一次被修改时的事务 ID</td></tr><tr><td>cversion</td><td>子节点的更改次数</td></tr><tr><td>dataVersion</td><td>节点数据的更改次数</td></tr><tr><td>aclVersion</td><td>节点的 ACL 的更改次数</td></tr><tr><td>ephemeralOwner</td><td>如果节点是临时节点，则表示创建该节点的会话的 ，SessionID；如果节点是持久节点，则该属性值为 0</td></tr><tr><td>dataLength</td><td>数据内容的长度</td></tr><tr><td>numChildren</td><td>数据节点当前的子节点个数</td></tr></tbody></table><h2 id="查看节点状态"><a href="#查看节点状态" class="headerlink" title="查看节点状态"></a>查看节点状态</h2><h3 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">stat path</span><br></pre></td></tr></table></figure><p>可以使用 <code>stat </code>命令查看节点状态，它的返回值和<code>get </code>命令类似，但不会返回 节点数据</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229114113679.png" alt="查看节点状态"></p><h2 id="查看节点列表"><a href="#查看节点列表" class="headerlink" title="查看节点列表"></a>查看节点列表</h2><h3 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ls path # 查看节点列表</span><br><span class="line">ls2 path #查看指定路径下的所有节点，还可以查看当前节点的信息</span><br></pre></td></tr></table></figure><p>查看节点列表有 <code>ls path</code> 和 <code>ls2 path </code>两个命令，后者是前者的增强，不仅可以查看指定路径下的所有节点，还可以查看当前节点的信息</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229114358385.png" alt="查看节点列表"></p><h2 id="监听器get-path-watch"><a href="#监听器get-path-watch" class="headerlink" title="监听器get path [watch]"></a>监听器get path [watch]</h2><h3 id="语法-4"><a href="#语法-4" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">get path [watch]</span><br></pre></td></tr></table></figure><p>使用 <code>get path [watch]</code> 注册的监听器能够在节点内容发生改变的时候，向客户端发出通知。需要注意的是 zookeeper 的触发器是一次性的 (One-time trigger)，即触发一次后就会立即失效。</p><p>左边客户端使用监听器，右边客户端更改了数据，左边监听到了数据的更改</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229124245708.png" alt="监听器get path [watch]"></p><h2 id="监听器stat-path-watch"><a href="#监听器stat-path-watch" class="headerlink" title="监听器stat path [watch]"></a>监听器stat path [watch]</h2><h3 id="语法-5"><a href="#语法-5" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">stat path [watch]</span><br></pre></td></tr></table></figure><p>使用  <code>stat path [watch]</code>注册的监听器能够在节点状态发生改变的时候，向客户端发出通知 </p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229125204155.png" alt="监听器stat path [watch]"></p><h2 id="监听器ls-ls2-path-watch"><a href="#监听器ls-ls2-path-watch" class="headerlink" title="监听器ls\ls2 path [watch]"></a>监听器ls\ls2 path [watch]</h2><h3 id="语法-6"><a href="#语法-6" class="headerlink" title="语法"></a>语法</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ls\ls2 path [watch]</span><br></pre></td></tr></table></figure><p>使用<code>ls path [watch]</code>或 <code>ls2 path [watch] </code>注册的监听器能够监听该节点下 所有子节点的增加和删除操作。</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/Just-null/blogimgs/raw/master/img_mac/image-20201229125745822.png" alt="监听器ls\ls2 path [watch]"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;zookeeper常用Shell命令&quot;&gt;&lt;a href=&quot;#zookeeper常用Shell命令&quot; class=&quot;headerlink&quot; title=&quot;zookeeper常用Shell命令&quot;&gt;&lt;/a&gt;zookeeper常用Shell命令&lt;/h1&gt;&lt;h2 id=&quot;环</summary>
-      
-    
-    
-    
-    <category term="Zookeeper" scheme="https://blog.just-null.cn/categories/Zookeeper/"/>
-    
-    <category term="Shell" scheme="https://blog.just-null.cn/categories/Zookeeper/Shell/"/>
-    
-    
-    <category term="Zookeeper" scheme="https://blog.just-null.cn/tags/Zookeeper/"/>
-    
-    <category term="Shell" scheme="https://blog.just-null.cn/tags/Shell/"/>
     
   </entry>
   
