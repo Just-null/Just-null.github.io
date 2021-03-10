@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.just-null.cn/posts/dubbo_use.html</loc>
+    <lastmod>2021-03-10</lastmod>
+  </url>
+  <url>
     <loc>https://blog.just-null.cn/posts/dubbo_core.html</loc>
     <lastmod>2021-03-09</lastmod>
   </url>
@@ -237,11 +241,11 @@
     <lastmod>2020-08-25</lastmod>
   </url>
   <url>
-    <loc>https://blog.just-null.cn/posts/SpringIoc_anno.html</loc>
+    <loc>https://blog.just-null.cn/posts/SpringIoc_XML.html</loc>
     <lastmod>2020-08-24</lastmod>
   </url>
   <url>
-    <loc>https://blog.just-null.cn/posts/SpringIoc_XML.html</loc>
+    <loc>https://blog.just-null.cn/posts/SpringIoc_anno.html</loc>
     <lastmod>2020-08-24</lastmod>
   </url>
   <url>
