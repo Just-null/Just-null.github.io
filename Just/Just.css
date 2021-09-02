@@ -71,7 +71,9 @@
 	--wds-box-shadow: 0 0 15px rgb(48,52,63);
 	--wds-box-shadow-hover: 0 3px 8px 6px rgba(165,178,191,0.15)
 }
-
+h1, h2, h3, h4, h5, h6{
+	padding-left: 0!important
+}
 ::-webkit-scrollbar {
 	width: 6px;
 	height: 6px
@@ -2415,4 +2417,7 @@ div.timenode .meta::after {
 }
 div#recent-posts{
 	margin-top: 60px;
+}
+#article-container figure.highlight,img{
+	border-radius: 10px;
 }
